@@ -1,0 +1,11 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:18:43.956221 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 390579380:390579432, ack 2407245357, win 6351, length 52
+20:18:43.957680 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 52:160, ack 1, win 6351, length 108
+20:18:43.957733 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 160:196, ack 1, win 6351, length 36
+20:18:43.957768 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 196:248, ack 1, win 6351, length 52
+20:18:43.957800 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 248:316, ack 1, win 6351, length 68
+5 packets captured
+19 packets received by filter
+0 packets dropped by kernel

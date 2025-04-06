@@ -1,0 +1,11 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0 dst 159.89.124.80
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:20:56.265132 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 390600692, win 3690, length 0
+20:20:56.307013 IP arsonalinteractive.com.48276 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 3443432745:3443432793, ack 2806043767, win 246, options [nop,nop,TS val 799971746 ecr 3029177696], length 48
+20:20:56.317150 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 37, win 3689, length 0
+20:20:56.360770 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.35693: 53031 NXDomain 0/1/1 (122)
+20:20:56.362069 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.35693: 53031 NXDomain 0/1/0 (111)
+5 packets captured
+19 packets received by filter
+0 packets dropped by kernel

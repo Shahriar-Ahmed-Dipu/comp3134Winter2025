@@ -1,0 +1,1 @@
+Encryption would help prevent this exposure by making the data unreadable to unauthorized users. When using https protocols the data being transmitted is scrambled into a code. If this data is exposed, it will not be easily understandable, keeping the communication secure. Encryption also verifies the identity of both server and client, helping prevent man-in-the-middle attacks.

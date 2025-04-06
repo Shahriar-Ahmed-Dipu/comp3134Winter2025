@@ -1,0 +1,225 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:09:13.876642 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 367520652:367520760, ack 2407228093, win 6351, length 108
+20:09:13.876721 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 108:144, ack 1, win 6351, length 36
+20:09:13.876769 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 144:196, ack 1, win 6351, length 52
+20:09:13.876938 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 196:264, ack 1, win 6351, length 68
+20:09:13.876973 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 264:332, ack 1, win 6351, length 68
+20:09:13.877003 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 332:368, ack 1, win 6351, length 36
+20:09:13.880120 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 1029, length 0
+20:09:13.880120 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 196, win 1029, length 0
+20:09:13.880120 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 332, win 1028, length 0
+20:09:13.931201 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 1028, length 0
+20:09:13.975801 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.55154 > 67.207.67.2.domain: 12296+ [1au] PTR? 18.98.206.173.in-addr.arpa. (55)
+20:09:13.975917 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [S], seq 1491979968, win 64240, options [mss 1460,sackOK,TS val 3006087687 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+20:09:13.976129 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.53551 > 67.207.67.2.domain: 32014+ [1au] PTR? 80.124.89.159.in-addr.arpa. (55)
+20:09:13.978147 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.55154: 12296 1/0/1 PTR 173-206-98-18.cpe.distributel.net. (102)
+20:09:13.978269 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026: Flags [S.], seq 111239831, ack 1491979969, win 65160, options [mss 1460,sackOK,TS val 2999697969 ecr 3006087687,nop,wscale 9], length 0
+20:09:13.978305 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 3006087689 ecr 2999697969], length 0
+20:09:13.978318 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.53551: 32014 NXDomain 0/1/1 (122)
+20:09:13.978351 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [P.], seq 1:47, ack 1, win 502, options [nop,nop,TS val 3006087689 ecr 2999697969], length 46 54122+ PTR? 18.98.206.173.in-addr.arpa. (44)
+20:09:13.978441 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.53551 > 67.207.67.2.domain: 32014+ PTR? 80.124.89.159.in-addr.arpa. (44)
+20:09:13.979554 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026: Flags [.], ack 47, win 128, options [nop,nop,TS val 2999697971 ecr 3006087689], length 0
+20:09:13.979628 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026: Flags [P.], seq 1:94, ack 47, win 128, options [nop,nop,TS val 2999697971 ecr 3006087689], length 93 54122 1/0/0 PTR 173-206-98-18.cpe.distributel.net. (91)
+20:09:13.979628 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.53551: 32014 NXDomain 0/1/0 (111)
+20:09:13.979644 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [.], ack 94, win 502, options [nop,nop,TS val 3006087690 ecr 2999697971], length 0
+20:09:13.980199 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 368:580, ack 1, win 6351, length 212
+20:09:13.980248 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 580:616, ack 1, win 6351, length 36
+20:09:13.980327 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 616:804, ack 1, win 6351, length 188
+20:09:13.980356 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 804:840, ack 1, win 6351, length 36
+20:09:13.980395 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 840:1028, ack 1, win 6351, length 188
+20:09:13.980424 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1028:1064, ack 1, win 6351, length 36
+20:09:13.980462 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1064:1252, ack 1, win 6351, length 188
+20:09:13.980489 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1252:1288, ack 1, win 6351, length 36
+20:09:13.980526 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1288:1476, ack 1, win 6351, length 188
+20:09:13.980580 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1476:1512, ack 1, win 6351, length 36
+20:09:13.980594 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1512:1700, ack 1, win 6351, length 188
+20:09:13.980621 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1700:1736, ack 1, win 6351, length 36
+20:09:13.980659 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1736:1916, ack 1, win 6351, length 180
+20:09:13.980687 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1916:1952, ack 1, win 6351, length 36
+20:09:13.984084 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 616, win 1027, length 0
+20:09:13.984085 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1252, win 1025, length 0
+20:09:13.984085 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1288, win 1024, length 0
+20:09:13.984085 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1512, win 1024, length 0
+20:09:13.984085 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1736, win 1029, length 0
+20:09:13.984085 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1952, win 1028, length 0
+20:09:13.984144 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 1952:2600, ack 1, win 6351, length 648
+20:09:14.039029 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2600, win 1026, length 0
+20:09:14.079496 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.44864 > 67.207.67.2.domain: 6660+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+20:09:14.079605 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.60132 > 67.207.67.2.domain: 35249+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+20:09:14.079644 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [P.], seq 47:91, ack 94, win 502, options [nop,nop,TS val 3006087790 ecr 2999697971], length 44 19559+ PTR? 2.67.207.67.in-addr.arpa. (42)
+20:09:14.080911 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026: Flags [P.], seq 94:205, ack 91, win 128, options [nop,nop,TS val 2999698072 ecr 3006087790], length 111 19559 NXDomain 0/1/0 (109)
+20:09:14.080911 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.60132: 35249 NXDomain 0/1/1 (120)
+20:09:14.080911 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.44864: 6660 NXDomain 0/1/1 (120)
+20:09:14.080952 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [.], ack 205, win 502, options [nop,nop,TS val 3006087792 ecr 2999698072], length 0
+20:09:14.081199 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.44864 > 67.207.67.2.domain: 6660+ PTR? 2.67.207.67.in-addr.arpa. (42)
+20:09:14.081258 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.60132 > 67.207.67.2.domain: 35249+ PTR? 2.67.207.67.in-addr.arpa. (42)
+20:09:14.082445 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.44864: 6660 NXDomain 0/1/0 (109)
+20:09:14.082445 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.60132: 35249 NXDomain 0/1/0 (109)
+20:09:14.083138 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 2600:2772, ack 1, win 6351, length 172
+20:09:14.083214 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 2772:2808, ack 1, win 6351, length 36
+20:09:14.083318 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 2808:3060, ack 1, win 6351, length 252
+20:09:14.083354 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3060:3096, ack 1, win 6351, length 36
+20:09:14.083438 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3096:3268, ack 1, win 6351, length 172
+20:09:14.083475 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3268:3304, ack 1, win 6351, length 36
+20:09:14.083516 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3304:3484, ack 1, win 6351, length 180
+20:09:14.083543 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3484:3520, ack 1, win 6351, length 36
+20:09:14.083646 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3520:3780, ack 1, win 6351, length 260
+20:09:14.083690 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3780:3816, ack 1, win 6351, length 36
+20:09:14.083746 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 3816:4028, ack 1, win 6351, length 212
+20:09:14.083775 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4028:4064, ack 1, win 6351, length 36
+20:09:14.083816 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4064:4212, ack 1, win 6351, length 148
+20:09:14.083844 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4212:4248, ack 1, win 6351, length 36
+20:09:14.083892 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4248:4516, ack 1, win 6351, length 268
+20:09:14.083928 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4516:4552, ack 1, win 6351, length 36
+20:09:14.083997 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4552:4716, ack 1, win 6351, length 164
+20:09:14.084032 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4716:4752, ack 1, win 6351, length 36
+20:09:14.084097 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4752:4964, ack 1, win 6351, length 212
+20:09:14.084131 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 4964:5000, ack 1, win 6351, length 36
+20:09:14.084176 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5000:5276, ack 1, win 6351, length 276
+20:09:14.084210 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5276:5312, ack 1, win 6351, length 36
+20:09:14.084246 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5312:5460, ack 1, win 6351, length 148
+20:09:14.084280 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5460:5496, ack 1, win 6351, length 36
+20:09:14.084317 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5496:5708, ack 1, win 6351, length 212
+20:09:14.084360 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5708:5744, ack 1, win 6351, length 36
+20:09:14.084409 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5744:5940, ack 1, win 6351, length 196
+20:09:14.084436 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5940:5976, ack 1, win 6351, length 36
+20:09:14.084472 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 5976:6164, ack 1, win 6351, length 188
+20:09:14.087022 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2808, win 1025, length 0
+20:09:14.087022 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3096, win 1024, length 0
+20:09:14.087022 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3484, win 1029, length 0
+20:09:14.087022 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3520, win 1029, length 0
+20:09:14.087022 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4028, win 1027, length 0
+20:09:14.087022 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4516, win 1025, length 0
+20:09:14.087022 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4552, win 1025, length 0
+20:09:14.087023 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5000, win 1029, length 0
+20:09:14.087074 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 6164:9044, ack 1, win 6351, length 2880
+20:09:14.087092 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 9044:10720, ack 1, win 6351, length 1676
+20:09:14.087982 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5496, win 1027, length 0
+20:09:14.087982 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6164, win 1024, length 0
+20:09:14.090020 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7604, win 1029, length 0
+20:09:14.090020 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10720, win 1029, length 0
+20:09:14.134937 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 101.47.171.217.60466: Flags [S.], seq 1494438429, ack 954575000, win 65160, options [mss 1460,sackOK,TS val 1275834958 ecr 2048565619,nop,wscale 7], length 0
+20:09:14.183178 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 10720:10892, ack 1, win 6351, length 172
+20:09:14.183276 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 10892:10928, ack 1, win 6351, length 36
+20:09:14.183344 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 10928:11100, ack 1, win 6351, length 172
+20:09:14.183383 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 11100:11136, ack 1, win 6351, length 36
+20:09:14.183445 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 11136:11404, ack 1, win 6351, length 268
+20:09:14.183474 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 11404:11440, ack 1, win 6351, length 36
+20:09:14.183536 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 11440:11692, ack 1, win 6351, length 252
+20:09:14.183623 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 11692:11876, ack 1, win 6351, length 184
+20:09:14.183646 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 11876:11912, ack 1, win 6351, length 36
+20:09:14.183691 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 11912:12060, ack 1, win 6351, length 148
+20:09:14.183722 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12060:12096, ack 1, win 6351, length 36
+20:09:14.183761 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12096:12308, ack 1, win 6351, length 212
+20:09:14.183788 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12308:12344, ack 1, win 6351, length 36
+20:09:14.183826 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12344:12508, ack 1, win 6351, length 164
+20:09:14.183855 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12508:12544, ack 1, win 6351, length 36
+20:09:14.183891 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12544:12708, ack 1, win 6351, length 164
+20:09:14.183918 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12708:12744, ack 1, win 6351, length 36
+20:09:14.183954 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12744:12892, ack 1, win 6351, length 148
+20:09:14.183981 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12892:12928, ack 1, win 6351, length 36
+20:09:14.184016 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 12928:13076, ack 1, win 6351, length 148
+20:09:14.184043 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13076:13112, ack 1, win 6351, length 36
+20:09:14.184092 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13112:13308, ack 1, win 6351, length 196
+20:09:14.184121 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13308:13344, ack 1, win 6351, length 36
+20:09:14.184157 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13344:13540, ack 1, win 6351, length 196
+20:09:14.184197 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13540:13576, ack 1, win 6351, length 36
+20:09:14.184246 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13576:13772, ack 1, win 6351, length 196
+20:09:14.184275 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13772:13808, ack 1, win 6351, length 36
+20:09:14.184311 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 13808:14004, ack 1, win 6351, length 196
+20:09:14.184338 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14004:14040, ack 1, win 6351, length 36
+20:09:14.184388 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14040:14236, ack 1, win 6351, length 196
+20:09:14.184426 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14236:14272, ack 1, win 6351, length 36
+20:09:14.184475 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14272:14468, ack 1, win 6351, length 196
+20:09:14.184511 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14468:14504, ack 1, win 6351, length 36
+20:09:14.184554 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14504:14700, ack 1, win 6351, length 196
+20:09:14.184582 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14700:14736, ack 1, win 6351, length 36
+20:09:14.184618 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14736:14932, ack 1, win 6351, length 196
+20:09:14.186248 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.33108 > 67.207.67.2.domain: 52336+ [1au] PTR? 217.171.47.101.in-addr.arpa. (56)
+20:09:14.186324 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.57929 > 67.207.67.2.domain: 32384+ [1au] PTR? 217.171.47.101.in-addr.arpa. (56)
+20:09:14.186363 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [P.], seq 91:138, ack 205, win 502, options [nop,nop,TS val 3006087897 ecr 2999698072], length 47 56074+ PTR? 217.171.47.101.in-addr.arpa. (45)
+20:09:14.186987 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 11136, win 1027, length 0
+20:09:14.186987 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 11440, win 1026, length 0
+20:09:14.186987 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 12308, win 1029, length 0
+20:09:14.186987 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 12928, win 1026, length 0
+20:09:14.187029 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 14932:20692, ack 1, win 6351, length 5760
+20:09:14.187050 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 20692:22896, ack 1, win 6351, length 2204
+20:09:14.187397 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.33108: 52336 NXDomain 0/1/1 (144)
+20:09:14.187464 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.57929: 32384 NXDomain 0/1/1 (144)
+20:09:14.187601 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.33108 > 67.207.67.2.domain: 52336+ PTR? 217.171.47.101.in-addr.arpa. (45)
+20:09:14.187661 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.57929 > 67.207.67.2.domain: 32384+ PTR? 217.171.47.101.in-addr.arpa. (45)
+20:09:14.188042 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13540, win 1024, length 0
+20:09:14.188042 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14040, win 1029, length 0
+20:09:14.188042 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14236, win 1028, length 0
+20:09:14.188042 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14468, win 1027, length 0
+20:09:14.188042 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14700, win 1026, length 0
+20:09:14.188042 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14932, win 1025, length 0
+20:09:14.188193 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026: Flags [P.], seq 205:340, ack 138, win 128, options [nop,nop,TS val 2999698180 ecr 3006087897], length 135 56074 NXDomain 0/1/0 (133)
+20:09:14.188202 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.37026 > 67.207.67.2.domain: Flags [.], ack 340, win 501, options [nop,nop,TS val 3006087899 ecr 2999698180], length 0
+20:09:14.188645 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.33108: 52336 NXDomain 0/1/0 (133)
+20:09:14.188715 IP 67.207.67.2.domain > lamponubuntu2204-s-1vcpu-1gb-tor1-01.57929: 32384 NXDomain 0/1/0 (133)
+20:09:14.189075 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 22896:23156, ack 1, win 6351, length 260
+20:09:14.189117 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23156:23192, ack 1, win 6351, length 36
+20:09:14.190077 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 20692, win 1029, length 0
+20:09:14.191030 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 22896, win 1029, length 0
+20:09:14.192075 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 23192, win 1028, length 0
+20:09:14.287165 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23192:23388, ack 1, win 6351, length 196
+20:09:14.287267 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23388:23424, ack 1, win 6351, length 36
+20:09:14.287314 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23424:23620, ack 1, win 6351, length 196
+20:09:14.287347 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23620:23656, ack 1, win 6351, length 36
+20:09:14.287387 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23656:23852, ack 1, win 6351, length 196
+20:09:14.287415 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23852:23888, ack 1, win 6351, length 36
+20:09:14.287452 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 23888:24084, ack 1, win 6351, length 196
+20:09:14.287480 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 24084:24120, ack 1, win 6351, length 36
+20:09:14.287529 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 24120:24316, ack 1, win 6351, length 196
+20:09:14.287583 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 24316:24548, ack 1, win 6351, length 232
+20:09:14.287612 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 24548:24584, ack 1, win 6351, length 36
+20:09:14.287648 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 24584:24780, ack 1, win 6351, length 196
+20:09:14.287681 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 24780:24816, ack 1, win 6351, length 36
+20:09:14.287738 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 24816:25012, ack 1, win 6351, length 196
+20:09:14.287768 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25012:25048, ack 1, win 6351, length 36
+20:09:14.287806 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25048:25244, ack 1, win 6351, length 196
+20:09:14.287841 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25244:25280, ack 1, win 6351, length 36
+20:09:14.287898 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25280:25476, ack 1, win 6351, length 196
+20:09:14.287938 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25476:25512, ack 1, win 6351, length 36
+20:09:14.287993 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25512:25708, ack 1, win 6351, length 196
+20:09:14.288048 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25708:25744, ack 1, win 6351, length 36
+20:09:14.288099 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25744:25940, ack 1, win 6351, length 196
+20:09:14.288138 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25940:25976, ack 1, win 6351, length 36
+20:09:14.288187 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 25976:26172, ack 1, win 6351, length 196
+20:09:14.288224 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26172:26208, ack 1, win 6351, length 36
+20:09:14.288282 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26208:26404, ack 1, win 6351, length 196
+20:09:14.288326 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26404:26440, ack 1, win 6351, length 36
+20:09:14.288383 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26440:26636, ack 1, win 6351, length 196
+20:09:14.288421 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26636:26672, ack 1, win 6351, length 36
+20:09:14.288476 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26672:26868, ack 1, win 6351, length 196
+20:09:14.288517 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26868:26904, ack 1, win 6351, length 36
+20:09:14.288573 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 26904:27100, ack 1, win 6351, length 196
+20:09:14.288614 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 27100:27136, ack 1, win 6351, length 36
+20:09:14.288667 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 27136:27332, ack 1, win 6351, length 196
+20:09:14.288708 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 27332:27368, ack 1, win 6351, length 36
+20:09:14.288761 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 27368:27564, ack 1, win 6351, length 196
+20:09:14.288796 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 27564:27600, ack 1, win 6351, length 36
+20:09:14.288846 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 27600:27796, ack 1, win 6351, length 196
+20:09:14.291079 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24084, win 1024, length 0
+20:09:14.291079 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24316, win 1023, length 0
+20:09:14.291079 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24780, win 1029, length 0
+20:09:14.291079 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 25280, win 1027, length 0
+20:09:14.291079 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 25744, win 1025, length 0
+20:09:14.291160 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 27796:37672, ack 1, win 6351, length 9876
+20:09:14.292135 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 26172, win 1023, length 0
+20:09:14.292135 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 26636, win 1029, length 0
+20:09:14.292135 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 27136, win 1027, length 0
+20:09:14.292136 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 27332, win 1026, length 0
+20:09:14.292136 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 27796, win 1024, length 0
+20:09:14.294340 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 33556, win 1029, length 0
+20:09:14.294340 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 37672, win 1029, length 0
+20:09:14.325878 IP 101.47.171.217.60466 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:25, ack 1, win 251, options [nop,nop,TS val 2048566819 ecr 1275833949], length 24: SSH: SSH-2.0-libssh2_1.11.0
+20:09:14.325955 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 101.47.171.217.60466: Flags [.], ack 25, win 509, options [nop,nop,TS val 1275835149 ecr 2048566819], length 0
+20:09:14.338173 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 101.47.171.217.60466: Flags [P.], seq 1:43, ack 25, win 509, options [nop,nop,TS val 1275835161 ecr 2048566819], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10
+^C
+218 packets captured
+228 packets received by filter
+0 packets dropped by kernel

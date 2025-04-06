@@ -1,0 +1,31 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -A -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:12:19.033683 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 389953892:389954000, ack 2407237825, win 6351, length 108
+E.....@.@..F.Y|P..b......>9d.{..P...,........nxa
+..XA..5......Q...2..P..6.?....t.*.Y.m..Mh6+v.."s.....3...Ih....!.v.g_1.....C@.K.'....,.S....O...BU
+20:12:19.033759 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 108:144, ack 1, win 6351, length 36
+E..L..@.@....Y|P..b......>9..{..P...+...Y.eU/sT.0E.o.K..Hg
+...;.......&-}...
+20:12:19.033814 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 144:196, ack 1, win 6351, length 52
+E..\..@.@..|.Y|P..b......>9..{..P...+...~.Y...U1...j..g,j..YJ.K.........m_R.-.  .!.....ub2
+..
+20:12:19.033860 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 196:264, ack 1, win 6351, length 68
+E..l..@.@..k.Y|P..b......>:(.{..P...+...@.....}.e...N....`H..9........Y)...v...@>...{... .'`..d.|.=H..K.+.K.
+20:12:19.033901 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 264:332, ack 1, win 6351, length 68
+E..l..@.@..j.Y|P..b......>:l.{..P...+......     .-./.+ h.Q~.kw..'....-..g........\..._^..|e..?...pD..
+P.a`.L.JG.
+20:12:19.034297 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 332:368, ack 1, win 6351, length 36
+E..L..@.@....Y|P..b......>:..{..P...+....f....Y.jp.I..0z=......%.C....\..w..
+20:12:19.036868 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 3687, length 0
+E..(..@.8..b..b..Y|P.....{...>9.P..gGM........
+20:12:19.037824 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 264, win 3687, length 0
+E..(..@.8..a..b..Y|P.....{...>:lP..gF.........
+20:12:19.037824 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 332, win 3686, length 0
+E..(..@.8..`..b..Y|P.....{...>:.P..fF.........
+20:12:19.086701 IP 173-206-98-18.cpe.distributel.net.50448 > lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 3686, length 0
+E..(..@.8.._..b..Y|P.....{...>:.P..fFn........
+^C
+10 packets captured
+48 packets received by filter
+0 packets dropped by kernel

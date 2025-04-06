@@ -1,0 +1,3 @@
+The browser displays the contents of the html directory, which is the web root. The user is able to traverse up and view directories above the web root because of the vulnerability, even though the html directory is the intended accessible area.
+
+The sensitive information here is the exposure of the html directory, which could allow an attacker to identify where the web files are stored. Although this output is more limited than in the previous case, it still shows that directory traversal is possible and can lead to further exploration of sensitive areas on the server.

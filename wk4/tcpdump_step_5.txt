@@ -1,0 +1,50 @@
+root@lamponubuntu2204-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:14:11.919744 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 390423272:390423324, ack 2407240457, win 6351, length 52
+        0x0000:  fe00 0000 0101 aaaa 7193 2605 0800 4510  ........q.&...E.
+        0x0010:  005c 03db 4000 4006 0b27 9f59 7c50 adce  .\..@.@..'.Y|P..
+        0x0020:  6212 0016 c510 1745 62e8 8f7b 9309 5018  b......Eb..{..P.
+        0x0030:  18cf 2bd9 0000 d2b3 883e e483 d615 68b0  ..+......>....h.
+        0x0040:  cca3 b0c1 7c2a 522a ca4a 3370 610b 4caf  ....|*R*.J3pa.L.
+        0x0050:  4f4f d3fd 7816 9b66 a653 17c4 11f7 b14b  OO..x..f.S.....K
+        0x0060:  b199 291b cc38 36c0 64b3                 ..)..86.d.
+20:14:11.920624 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 52:160, ack 1, win 6351, length 108
+        0x0000:  fe00 0000 0101 aaaa 7193 2605 0800 4510  ........q.&...E.
+        0x0010:  0094 03dc 4000 4006 0aee 9f59 7c50 adce  ....@.@....Y|P..
+        0x0020:  6212 0016 c510 1745 631c 8f7b 9309 5018  b......Ec..{..P.
+        0x0030:  18cf 2c11 0000 d56c 83f1 e774 514d 93fc  ..,....l...tQM..
+        0x0040:  59b7 a405 d3ac a352 7399 b4bd 851a a28b  Y......Rs.......
+        0x0050:  e37e 337d aaeb df35 0543 16a8 1e12 b105  .~3}...5.C......
+        0x0060:  cc90 1fcf 58d3 cf57 cc25 b18f 0d03 8082  ....X..W.%......
+        0x0070:  29a0 c3e9 f1ae 675b f03e abb7 5726 18cb  ).....g[.>..W&..
+        0x0080:  4a7a e4ae a6b7 e33a 4031 e4a3 89a7 3f77  Jz.....:@1....?w
+        0x0090:  a886 346c 6083 9443 d09e 08f3 f71b 3e88  ..4l`..C......>.
+        0x00a0:  d734                                     .4
+20:14:11.920671 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 160:196, ack 1, win 6351, length 36
+        0x0000:  fe00 0000 0101 aaaa 7193 2605 0800 4510  ........q.&...E.
+        0x0010:  004c 03dd 4000 4006 0b35 9f59 7c50 adce  .L..@.@..5.Y|P..
+        0x0020:  6212 0016 c510 1745 6388 8f7b 9309 5018  b......Ec..{..P.
+        0x0030:  18cf 2bc9 0000 6f2a 3118 717e 746b 8938  ..+...o*1.q~tk.8
+        0x0040:  bb41 826e 6739 8e04 7f81 9f20 9d72 c72a  .A.ng9.......r.*
+        0x0050:  f074 5b5d 9222 4590 2649                 .t[]."E.&I
+20:14:11.920704 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 196:248, ack 1, win 6351, length 52
+        0x0000:  fe00 0000 0101 aaaa 7193 2605 0800 4510  ........q.&...E.
+        0x0010:  005c 03de 4000 4006 0b24 9f59 7c50 adce  .\..@.@..$.Y|P..
+        0x0020:  6212 0016 c510 1745 63ac 8f7b 9309 5018  b......Ec..{..P.
+        0x0030:  18cf 2bd9 0000 0d73 31b0 a2d5 345d 23e0  ..+....s1...4]#.
+        0x0040:  7cf2 9c48 a9cc 7b2b b308 56cf 14a7 d0cf  |..H..{+..V.....
+        0x0050:  7d18 6073 fbe5 d54c 004f 0404 d7b4 c668  }.`s...L.O.....h
+        0x0060:  817b a042 04ce fd74 158e                 .{.B...t..
+20:14:11.920736 IP lamponubuntu2204-s-1vcpu-1gb-tor1-01.ssh > 173-206-98-18.cpe.distributel.net.50448: Flags [P.], seq 248:316, ack 1, win 6351, length 68
+        0x0000:  fe00 0000 0101 aaaa 7193 2605 0800 4510  ........q.&...E.
+        0x0010:  006c 03df 4000 4006 0b13 9f59 7c50 adce  .l..@.@....Y|P..
+        0x0020:  6212 0016 c510 1745 63e0 8f7b 9309 5018  b......Ec..{..P.
+        0x0030:  18cf 2be9 0000 39c5 7839 6be2 48e2 e4d2  ..+...9.x9k.H...
+        0x0040:  a942 5bdd fbab 8172 6a2e b8a1 7934 fba3  .B[....rj...y4..
+        0x0050:  f5aa 1f39 d958 0d62 c14b 69c6 7896 f827  ...9.X.b.Ki.x..'
+        0x0060:  7256 bc78 ed0f e383 66ae 6d98 60f7 2ea9  rV.x....f.m.`...
+        0x0070:  8e7a 6006 d50e 818a 531d                 .z`.....S.
+5 packets captured
+39 packets received by filter
+0 packets dropped by kernel

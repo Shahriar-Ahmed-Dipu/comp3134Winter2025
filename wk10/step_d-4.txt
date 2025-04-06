@@ -1,0 +1,3 @@
+The browser displays the contents of multiple directories above the html directory, such as backups, cache, lib, mail, and other. This is a case of directory traversal, where the user is able to view files outside the intended web directory due to the lack of proper validation.
+
+The output reveals sensitive directory names. These directories may contain logs or temporary files that could provide attackers with useful information for further exploitation.

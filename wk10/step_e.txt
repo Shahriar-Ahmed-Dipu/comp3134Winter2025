@@ -1,0 +1,5 @@
+Changes made to the directory_traversal_part1.php script:
+
+Used the basename function to extract the base name of the input path. This will prevent users from specifying paths with ../ that could traverse outside the intended directory.
+
+Check if the requested path exists using file_exists before scanning the directory. This ensures that the path is valid and prevents errors from being displayed.
