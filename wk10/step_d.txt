@@ -1,0 +1,4 @@
+The browser displays a warning indicating that the directory hello cannot be found. The PHP function scandir() fails because the directory hello does not exist.
+
+The error message reveals information about the server's file structure, that the scandir function is being used and that there might be permission issues in accessing certain directories. It also exposes the location of the script on the server.
+

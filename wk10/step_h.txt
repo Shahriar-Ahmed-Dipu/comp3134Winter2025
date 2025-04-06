@@ -1,0 +1,2 @@
+To mitigate the issue of displaying sensitive information like employee IDs in the HTML source code, I have replaced the HTML comments with PHP comments. PHP comments are not visible in the browser source code, ensuring that sensitive information is not exposed. 
+This will protect the confidentiality of employee details while still keeping the comments in the source code for developers.
